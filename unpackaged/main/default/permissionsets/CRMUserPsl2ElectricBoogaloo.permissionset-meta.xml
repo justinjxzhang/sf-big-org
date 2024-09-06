@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor venenatis metus eu faucibus. 
+Nullam ultrices mi vitae finibus iaculis. Fusce fermentum felis vitae dolor facilisis, vel imperdiet lacus commodo. Duis varius et dolor sed imperdiet.</description>
+    <hasActivationRequired>true</hasActivationRequired>
+    <label>CRM User 2 Electric Boogaloo Oops</label>
+    <license>CRMUserPsl</license>
+</PermissionSet>
