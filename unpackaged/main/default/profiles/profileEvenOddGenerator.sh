@@ -25,11 +25,10 @@
 #     .join("\n")
 # );
 
-
-for i in $(seq 0 2 1000); do
-    cp ClassSpecificUserEven.profile-meta.xml ClassSpecificUser$i.profile-meta.xml;
+for i in $(seq 1 2 1000); do
+    cp AccessProfileOdd.profile-meta.xml AccessProfile$i.profile-meta.xml;
 done
 
-for i in $(seq 1 2 1000); do
-    cp ClassSpecificUserOdd.profile-meta.xml ClassSpecificUser$i.profile-meta.xml;
+for i in $(seq 2 2 1000); do
+    cp AccessProfileEven.profile-meta.xml AccessProfile$i.profile-meta.xml;
 done
